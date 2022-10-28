@@ -1,0 +1,184 @@
+body .container-fluid .row nav .collapse ul li{
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+body .container-fluid .row nav .collapse ul li:hover{
+    background-color: #dc3545;
+    border-top: 5px solid #ff4e80;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    border-radius: 0 0 9px 9px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.nav-pills .nav-link, .nav-pills .show>.nav-link{
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: #dc3545;
+    border-top: 5px solid #ff4e80;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    border-radius: 0 0 9px 9px;
+}
+header .container-fluid .row .carousel ol li{
+    width: 15px;
+    height: 15px;
+}
+main #about .container section .row article ul li a{
+    transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    padding: 0!important;
+}
+main #about .container section .row article ul li a:hover{
+    margin-left: 3px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+main #bgone{
+    background-image: url(../images/img2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+main #bgone .container .row article .btn{
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+main #bgone .container .row article .btn:hover{
+    color: grey!important;
+    border: 1px solid grey!important;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+main #ourteam .container section .row article img{
+    width: 230px;
+    height: 310px;
+}
+main #ourteam .container section .row article span a:hover{
+    cursor: pointer;
+}
+main #bgtow{
+    background-image: url(../images/img2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+main #bgtow .container .row section article .backop{
+    background-color: rgba(51, 51, 51, 0.295)!important;
+}
+main #gallery .container section .row ul li a{
+    cursor: pointer;
+}
+main #gallery .container section .row ul li a img{
+    border-bottom: 7px solid #dc3545!important;
+}
+main #pricing .container section .row .pricing article:hover .h3{
+    color: #dc3545!important;
+    cursor: pointer;
+}
+main #pricing .container section .row .pricing article a.btn{
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+main #pricing .container section .row .pricing article a.btn:hover{
+    color: #343a40!important;
+    background-color: #fff!important;
+    border: 1px solid #343a40!important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+main #contact{
+    background-image: url(../images/map-image.png);
+    background-position: center center;
+    background-size: cover;
+}
+main #contact .container section .row  article form a.btn{
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+main #contact .container section .row  article form a.btn:hover{
+    color: #343a40!important;
+    background-color: #fff!important;
+    border: 1px solid #343a40!important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:556px){
+    footer .container-fluid .container .row span {
+       margin: 0 auto;
+    }
+}
+@media screen and (max-width:575px){
+    header .container-fluid .row .carousel{
+        display: none;
+    }
+}
+@media screen and (max-width:991px){
+    .nav-pills .nav-link, .nav-pills .show>.nav-link{
+        border-top: 0;
+        border-bottom: 0;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        background-color: rgba(255, 255, 255, 0);
+        border-top: 0;
+        border-bottom: 0;
+        border-radius: 0;
+    }
+    body .container-fluid .row nav .collapse ul{
+       padding-bottom: 5px;
+    }
+    body .container-fluid .row nav .collapse .navbar-nav .nav-item{
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        border-radius: 9px;
+    }
+    body .container-fluid .row nav .collapse .navbar-nav .nav-item:hover{
+        border-radius: 9px;
+    }
+    header .container-fluid .row .carousel ol li{
+        width: 10px;
+        height: 10px;
+    }
+}
